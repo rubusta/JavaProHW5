@@ -3,39 +3,31 @@ package Books;
 import java.util.*;
 
 
-public class LogicBooks {
+public class ListBooks {
 
-    private static List<String> doncova() {
-        List<String> doncova = new ArrayList<>();
-        doncova.add("Dama s kogotkami");
-        doncova.add("Jena moego muga");
-        doncova.add("Za vsemi zaicami");
-        return doncova;
+
+   public static List<String> dariaDoncova() {
+        List<String> dariaDonciva = new ArrayList<>();
+        dariaDonciva.add("Dama s kogotkami");
+        dariaDonciva.add("Jena moego muga");
+        dariaDonciva.add("Za vsemi zaicami");
+        return dariaDonciva;
 
     }
-
-    private static List<String> borisAkunin() {
+    public static List<String> borisAkunin() {
         List<String> borisAkunin = new ArrayList<>();
-        borisAkunin.add("jhfshfj");
-        borisAkunin.add("jhfuhf");
-        borisAkunin.add("jfwkfh");
+        borisAkunin.add("Azazel");
+        borisAkunin.add("Tureckii Gambit");
+        borisAkunin.add("statskii Sovetnik");
         return borisAkunin;
 
     }
-
-    private static List<String> agataKristi() {
+    public static List<String> agataKristi() {
         List<String> agataKristi = new ArrayList<>();
-        agataKristi.add("jhvbsf");
-        agataKristi.add("kjfkj");
+        agataKristi.add("Smert na Nile");
+        agataKristi.add("Ubiistava po Alfavitu");
         return agataKristi;
 
     }
-
-    public static List<String> getListAuthors() {
-        Map<String, List<String>> listAuthors = new HashMap<>();
-        listAuthors.put("doncova", doncova());
-        listAuthors.put("boris akunin", borisAkunin());
-        listAuthors.put("agata Kristi", agataKristi());
-        return getListAuthors();
-    }
 }
+
