@@ -1,4 +1,4 @@
-package Car2;
+package Car;
 
 public class Person {
     public String name;
